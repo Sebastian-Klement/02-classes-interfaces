@@ -13,6 +13,7 @@ public class SimpleListImpl implements SimpleList, Iterable {
 
         private Object obj;
         private Element next;
+        private String test;
 
         Element(Object obj) {
             this.obj = obj;
