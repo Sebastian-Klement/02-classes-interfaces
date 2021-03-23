@@ -11,9 +11,8 @@ public class SimpleListImpl implements SimpleList, Iterable {
 
     private static class Element {
 
-        private Object obj;
+        private final Object obj;
         private Element next;
-        private String test;
 
         Element(Object obj) {
             this.obj = obj;
